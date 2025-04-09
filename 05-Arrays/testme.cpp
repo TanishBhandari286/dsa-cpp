@@ -40,6 +40,5 @@ int main()
     printArray(num, n);
 
     char ch[] = {'a', 'r', 'c', 't', 't'};
-    printArray(ch, n);
     return 0;
 }
