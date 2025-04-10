@@ -15,10 +15,12 @@ int binary_search(int arr[], int size, int target)
         {
             return mid;
         }
+        // checking if target is greater than mid
         else if (target > arr[mid])
         {
             start = mid + 1;
         }
+        // checking if target is smaller than mid
         else if (target < arr[mid])
         {
             end = mid - 1;
